@@ -11,3 +11,8 @@ Interactive U.S. county atlas (GOP share, education, turnout, RESI).
 5. **Save and deploy**.
 
 Do not use “Deploy without Git” / zip upload for this repo.
+
+## Security headers
+
+`customHttp.yml` sets HSTS, CSP, `nosniff`, frame denial, and a locked-down Permissions-Policy on every response. Amplify applies it on deploy.
+
